@@ -14,7 +14,7 @@ const EditFolder = () => {
   return (
     <>
       <Header>
-        <h2>Edit Folder Title</h2>
+        <h2>Thay Đổi Tên Thư Mục</h2>
         <CloseButton onClick={() => closeModal()}>
           <IoCloseSharp />
         </CloseButton>

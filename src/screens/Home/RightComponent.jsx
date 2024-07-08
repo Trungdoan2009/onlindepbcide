@@ -160,7 +160,7 @@ const RightComponent = () => {
                     folderId: folderId,
                     cardId: "",
                   }
-                })}><span>+</span> New Playground</AddButton>
+                })}><span>+</span> Sân Chơi Mới </AddButton>
               </FolderIcons>
             </Header>
 

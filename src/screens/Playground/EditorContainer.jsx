@@ -188,7 +188,7 @@ const EditorContainer = ({
               }
             })} />
           </Title>
-          <Button onClick={saveCode}>Save code</Button>
+          <Button onClick={saveCode}>Lưu Code</Button>
         </Header>
         <SelectBars>
           <Select
@@ -218,13 +218,13 @@ const EditorContainer = ({
         </button>
 
         <label htmlFor="codefile">
-          <input type="file" accept="." id="codefile" onChange={(e) => getFile(e, setCurrentCode)} /> <BiImport /> Import Code
+          <input type="file" accept="." id="codefile" onChange={(e) => getFile(e, setCurrentCode)} /> <BiImport /> Đưa code 
         </label>
 
         <a href={`data:text/plain;charset=utf-8,${encodeURIComponent(currentCode)}`} download="code.txt">
-          <BiExport /> Export Code
+          <BiExport /> Xuất code
         </a>
-        <SaveAndRunButton onClick={runCode}>Run Code</SaveAndRunButton>
+        <SaveAndRunButton onClick={runCode}>Chạy code</SaveAndRunButton>
       </LowerToolBar>
     </StyledEditorContainer >
   )

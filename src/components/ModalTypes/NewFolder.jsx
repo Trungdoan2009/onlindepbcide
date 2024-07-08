@@ -11,7 +11,7 @@ const NewFolder = () => {
   return (
     <>
       <Header>
-        <h2>Create New Folder</h2>
+        <h2>Tạo Thư Mục</h2>
         <CloseButton onClick={() => closeModal()}>
           <IoCloseSharp />
         </CloseButton>
@@ -21,7 +21,7 @@ const NewFolder = () => {
         <button onClick={() => {
           addFolder(folderTitle)
           closeModal()
-        }}>Create Folder</button>
+        }}>Tạo Thư Mục</button>
       </Input>
     </>
   )
